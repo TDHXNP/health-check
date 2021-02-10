@@ -91,7 +91,7 @@ def run(txtUid,txtPwd):
             'Temper2': random.randint(0, 9),
             'ReSubmiteFlag': soup.input.attrs['value']
         }
-        #r = session.post(url, data)
+        r = session.post(url, data)
         data1 = {
             'Time': '%s:%s' % (data['TimeNowHour'], data['TimeNowMinute']),
             'Temper': '%s:%s' % (data['Temper1'], data['Temper2']),
