@@ -2,7 +2,9 @@ name: task
 on:
   schedule:
     - cron: '00 23 * * *'
+    - cron: '30 23 * * *'
     - cron: '00 11 * * *'
+    - cron: '30 11 * * *'
   
   workflow_dispatch:
 
