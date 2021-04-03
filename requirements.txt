@@ -1,2 +1,6 @@
 requests
+opencv-python
 bs4
+pyyaml
+Pillow
+tensorflow
