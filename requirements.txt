@@ -1,3 +1,2 @@
 requests
-muggle_ocr
 bs4
